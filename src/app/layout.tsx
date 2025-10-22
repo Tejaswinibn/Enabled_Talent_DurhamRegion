@@ -6,8 +6,8 @@ import Footer from '../components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Enabled Africa - Africa\'s Largest Talent Bank',
-  description: 'Building accessible futures through jobs, skills, and innovation.',
+  title: 'Enabled Talent Durham - Durham Region\'s Premier Talent Connection',
+  description: 'Connect with Durham Region\'s best talent. Building accessible futures through jobs, skills, and innovation across Durham Region.',
 }
 
 export default function RootLayout({
