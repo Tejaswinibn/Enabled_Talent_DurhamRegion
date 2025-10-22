@@ -125,11 +125,11 @@ export default function WhatYouGet() {
               <p className="text-xs sm:text-sm lg:text-sm text-white" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 400, lineHeight: '20px', letterSpacing: '0%' }}>Connect with diverse professionals across Durham and the region</p>
             </div>
 
-            {/* Card 2 - Image - diverse-multiracial-group */}
+            {/* Card 2 - Image - Professional with disability */}
             <div className="h-[240px] sm:h-[260px] lg:h-[280px] p-1 sm:p-2">
               <Image 
-                src="/images/diverse-multiracial-group-people-giving-high-five-modern-office-teamwork-concept.png" 
-                alt="Team in office" 
+                src="/images/disabled-woman-in-wheelchair-looking-at-computer-2025-03-15-01-12-15-utc.png" 
+                alt="Professional woman with disability working at computer" 
                 width={300}
                 height={280}
                 className="w-full h-full object-cover rounded-xl"

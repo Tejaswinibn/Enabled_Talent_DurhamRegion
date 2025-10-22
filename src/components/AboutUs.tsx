@@ -9,19 +9,19 @@ export default function AboutUs() {
 
           {/* Combined About Enabled Africa, Vision and Mission Section */}
           <div className="bg-[#FFE8B9] py-6 sm:py-8 lg:py-10 px-4 sm:px-6 md:px-8 lg:px-12 rounded-2xl mb-8" style={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}>
-            {/* About Enabled Africa Section */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-4 lg:gap-5 mb-4 sm:mb-5 lg:mb-6 items-start">
-              {/* Image Card */}
-              <div className="lg:order-1 max-w-sm mx-auto lg:max-w-none">
-                <Image
-                  src="/images/Group 1171276405.png"
-                  alt="Portrait"
-                  width={400}
-                  height={500}
-                  className="w-full h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] object-cover rounded-2xl"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 700px"
-                />
-              </div>
+                {/* About Enabled Africa Section */}
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-4 lg:gap-5 mb-4 sm:mb-5 lg:mb-6 items-start">
+                  {/* Image Card */}
+                  <div className="lg:order-1 max-w-sm mx-auto lg:max-w-none">
+                    <Image
+                      src="/images/Group 1171276405.png"
+                      alt="Portrait"
+                      width={400}
+                      height={500}
+                      className="w-full h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] object-cover rounded-2xl"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 700px"
+                    />
+                  </div>
 
               {/* Text Card - Left-aligned with exact lines */}
               <div className="lg:order-2 text-center lg:text-left" style={{ maxWidth: '100%' }}>
@@ -54,17 +54,17 @@ export default function AboutUs() {
                   community.
                 </p>
               </div>
-              {/* Vision Image - responsive positioning */}
-              <div className="lg:order-2 max-w-sm mx-auto lg:max-w-none lg:ml-[-1%]">
-                <Image
-                  src="/images/Subtract.png"
-                  alt="Vision image"
-                  width={400}
-                  height={300}
-                  className="w-full h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] object-cover rounded-2xl"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 700px"
-                />
-              </div>
+                  {/* Vision Image - responsive positioning */}
+                  <div className="lg:order-2 max-w-sm mx-auto lg:max-w-none lg:ml-[-1%]">
+                    <Image
+                      src="/images/Subtract.png"
+                      alt="Vision image"
+                      width={400}
+                      height={300}
+                      className="w-full h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] object-cover rounded-2xl"
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 700px"
+                    />
+                  </div>
             </div>
 
             {/* Mission Section */}

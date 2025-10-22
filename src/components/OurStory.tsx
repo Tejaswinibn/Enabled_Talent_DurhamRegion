@@ -35,19 +35,19 @@ export default function OurStory() {
             </p>
           </div>
 
-          {/* Center image (unchanged) */}
-          <div className="lg:col-span-4 relative z-20">
-            <div className="overflow-hidden ring-1 ring-black/10 inline-block" style={{ borderRadius: '30px' }}>
-              <Image
-                src="/images/ced9f37fb11d9e4afef3efa7525fa2b301bba2a9.jpg"
-                alt="Woman working on laptop"
-                width={351}
-                height={473}
-                className="h-[280px] w-[220px] sm:h-[320px] sm:w-[260px] md:h-[340px] md:w-[290px] lg:h-[351px] lg:w-[320px] object-cover object-center mx-auto"
-                priority
-              />
-            </div>
-          </div>
+              {/* Center image (unchanged) */}
+              <div className="lg:col-span-4 relative z-20">
+                <div className="overflow-hidden ring-1 ring-black/10 inline-block" style={{ borderRadius: '30px' }}>
+                  <Image
+                    src="/images/ced9f37fb11d9e4afef3efa7525fa2b301bba2a9.jpg"
+                    alt="Woman working on laptop"
+                    width={351}
+                    height={473}
+                    className="h-[280px] w-[220px] sm:h-[320px] sm:w-[260px] md:h-[340px] md:w-[290px] lg:h-[351px] lg:w-[320px] object-cover object-center mx-auto"
+                    priority
+                  />
+                </div>
+              </div>
 
           {/* Right text + CTA — push to bottom-right and away from image */}
           <div className="lg:col-span-4 self-end lg:mt-16 lg:pl-6 text-center lg:text-left px-4 lg:px-0">

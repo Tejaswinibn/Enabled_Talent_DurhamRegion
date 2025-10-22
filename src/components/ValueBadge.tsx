@@ -45,7 +45,7 @@ export function OurValues() {
                   lineHeight: "1.6",
                 }}
               >
-                An Africa where everyone – regardless of background, gender, age, or ability – has
+                A Durham where everyone – regardless of background, gender, age, or ability – has
                 the chance to build a meaningful career and contribute to their community.
               </p>
             </div>
