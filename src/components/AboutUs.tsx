@@ -8,14 +8,14 @@ export default function AboutUs() {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 md:px-8 lg:px-12">
 
           {/* Combined About Enabled Africa, Vision and Mission Section */}
-          <div className="bg-[#FFE8B9] py-6 sm:py-8 lg:py-10 px-4 sm:px-6 md:px-8 lg:px-12 rounded-2xl mb-8" style={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}>
+          <div className="bg-white py-6 sm:py-8 lg:py-10 px-4 sm:px-6 md:px-8 lg:px-12 rounded-2xl mb-8" style={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)' }}>
                 {/* About Enabled Africa Section */}
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-4 lg:gap-5 mb-4 sm:mb-5 lg:mb-6 items-start">
                   {/* Image Card */}
                   <div className="lg:order-1 max-w-sm mx-auto lg:max-w-none">
                     <Image
-                      src="/images/Group 1171276405.png"
-                      alt="Portrait"
+                      src="https://www.shutterstock.com/image-photo/female-manager-training-new-employee-600nw-2529774523.jpg"
+                      alt="Female manager training new employee"
                       width={400}
                       height={500}
                       className="w-full h-[160px] sm:h-[180px] md:h-[200px] lg:h-[220px] object-cover rounded-2xl"
@@ -25,13 +25,13 @@ export default function AboutUs() {
 
               {/* Text Card - Left-aligned with exact lines */}
               <div className="lg:order-2 text-center lg:text-left" style={{ maxWidth: '100%' }}>
-                <h2 className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold text-gray-800 mb-3 sm:mb-4 leading-[1.35]" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 700, letterSpacing: '0%' }}>
-                  About<br />Enabled Talent Durham
-                </h2>
-                <p className="text-[14px] sm:text-[15px] md:text-[16px] leading-[1.35] text-gray-600 mb-3" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 500 }}>
-                  Ability is everywhere. Opportunity should be too
-                </p>
-                <p className="text-[13px] sm:text-[14px] md:text-[15px] leading-[1.35] text-gray-700 break-words" style={{ fontFamily: 'Plus Jakarta Sans' }}>
+                    <h2 className="text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] font-bold text-gray-800 mb-3 sm:mb-4 leading-[1.35]" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 700, letterSpacing: '0%' }}>
+                      About<br />Enabled Talent Durham
+                    </h2>
+                    <p className="text-[14px] sm:text-[15px] md:text-[16px] leading-[1.35] text-gray-600 mb-3" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 500 }}>
+                      Ability is everywhere. Opportunity should be too
+                    </p>
+                    <p className="text-[13px] sm:text-[14px] md:text-[15px] leading-[1.35] text-gray-700 break-words" style={{ fontFamily: 'Plus Jakarta Sans' }}>
                   Enabled Talent Durham is building<br />
                   a regional platform that<br />
                   connects people with opportunities and<br />

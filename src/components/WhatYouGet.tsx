@@ -125,11 +125,11 @@ export default function WhatYouGet() {
               <p className="text-xs sm:text-sm lg:text-sm text-white" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 400, lineHeight: '20px', letterSpacing: '0%' }}>Connect with diverse professionals across Durham and the region</p>
             </div>
 
-            {/* Card 2 - Image - Professional with disability */}
+            {/* Card 2 - Image - Diverse colleagues discussion */}
             <div className="h-[240px] sm:h-[260px] lg:h-[280px] p-1 sm:p-2">
               <Image 
-                src="/images/disabled-woman-in-wheelchair-looking-at-computer-2025-03-15-01-12-15-utc.png" 
-                alt="Professional woman with disability working at computer" 
+                src="https://www.shutterstock.com/image-photo/diverse-male-female-colleagues-discussion-600nw-2316782253.jpg" 
+                alt="Diverse male and female colleagues in discussion" 
                 width={300}
                 height={280}
                 className="w-full h-full object-cover rounded-xl"
@@ -154,22 +154,22 @@ export default function WhatYouGet() {
               <p className="text-xs sm:text-sm lg:text-sm text-white" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 400, lineHeight: '18px', letterSpacing: '0%', fontSize: 'calc(0.875rem - 1px)' }}>Get pre-matched with the right<br />candidates, ready to contribute</p>
             </div>
 
-            {/* Card 4 - Image - Man in striped shirt */}
+            {/* Card 4 - Image - Engineer with disability */}
             <div className="h-[240px] sm:h-[260px] lg:h-[280px] p-1 sm:p-2">
               <Image 
-                src="/images/645bd6210b74564994a286d7_MicrosoftTeams-image (1).png" 
-                alt="Man in striped shirt" 
+                src="https://www.shutterstock.com/image-photo/man-disability-yellow-vest-engineer-600nw-2564184691.jpg" 
+                alt="Engineer with disability in yellow vest" 
                 width={300}
                 height={280}
                 className="w-full h-full object-cover rounded-xl"
               />
             </div>
 
-            {/* Card 5 - Image - Man working */}
+            {/* Card 5 - Image - Colleagues business people */}
             <div className="h-[240px] sm:h-[260px] lg:h-[280px] p-1 sm:p-2">
               <Image 
-                src="/images/istock-2160995080.png" 
-                alt="Man working" 
+                src="https://www.shutterstock.com/image-photo/colleagues-business-people-woman-man-600nw-2574484479.jpg" 
+                alt="Colleagues business people woman and man" 
                 width={300}
                 height={280}
                 className="w-full h-full object-cover rounded-xl"

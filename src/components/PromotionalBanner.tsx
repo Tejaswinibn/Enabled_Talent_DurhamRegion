@@ -6,10 +6,11 @@ export default function PromotionalBanner() {
             <div className="mx-auto max-w-7xl px-3 sm:px-4 lg:px-8">
               <div className="relative rounded-xl overflow-hidden shadow-xl">
                 {/* Background Image - No dark overlay as per Figma */}
-                <img
-                  src="/images/banner-background.png"
-                  alt="Background"
-                  className="w-full h-[280px] sm:h-[320px] lg:h-[400px] object-cover"
+                <img 
+                  src="https://www.shutterstock.com/image-photo/waist-portrait-smiling-young-woman-600nw-2465012721.jpg"
+                  alt="Waist portrait of smiling young woman"
+                  className="w-full h-[280px] sm:h-[320px] lg:h-[400px] object-cover object-center"
+                  style={{ objectPosition: 'center 20%' }}
                 />
             
             

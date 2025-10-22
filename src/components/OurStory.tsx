@@ -39,8 +39,8 @@ export default function OurStory() {
               <div className="lg:col-span-4 relative z-20">
                 <div className="overflow-hidden ring-1 ring-black/10 inline-block" style={{ borderRadius: '30px' }}>
                   <Image
-                    src="/images/ced9f37fb11d9e4afef3efa7525fa2b301bba2a9.jpg"
-                    alt="Woman working on laptop"
+                    src="https://img.freepik.com/free-photo/medium-shot-smiley-disabled-man-work_23-2149313729.jpg?semt=ais_hybrid&w=740&q=80"
+                    alt="Medium shot of smiley disabled man at work"
                     width={351}
                     height={473}
                     className="h-[280px] w-[220px] sm:h-[320px] sm:w-[260px] md:h-[340px] md:w-[290px] lg:h-[351px] lg:w-[320px] object-cover object-center mx-auto"

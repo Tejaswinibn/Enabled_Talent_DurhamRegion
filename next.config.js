@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
       images: {
-        domains: ['localhost', 'www.durham.ca', 'abican-dd0f.kxcdn.com', 'alis.alberta.ca', 'www.rickhansen.com', 'ridm.net', 'broadview.org', 'disabilityinsider.com', 'indradhanuiitd.in'],
+        domains: ['localhost', 'www.durham.ca', 'abican-dd0f.kxcdn.com', 'alis.alberta.ca', 'www.rickhansen.com', 'ridm.net', 'broadview.org', 'disabilityinsider.com', 'indradhanuiitd.in', 'www.shutterstock.com', 'img.freepik.com', 'media.istockphoto.com'],
         remotePatterns: [
           {
             protocol: 'https',
@@ -58,6 +58,24 @@ const nextConfig = {
             hostname: 'indradhanuiitd.in',
             port: '',
             pathname: '/wp-content/uploads/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'www.shutterstock.com',
+            port: '',
+            pathname: '/image-photo/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'img.freepik.com',
+            port: '',
+            pathname: '/free-photo/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'media.istockphoto.com',
+            port: '',
+            pathname: '/id/**',
           },
         ],
       },
