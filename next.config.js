@@ -13,6 +13,12 @@ const nextConfig = {
           },
           {
             protocol: 'https',
+            hostname: 'www.durham.ca',
+            port: '',
+            pathname: '/en/images/structure/**',
+          },
+          {
+            protocol: 'https',
             hostname: 'abican-dd0f.kxcdn.com',
             port: '',
             pathname: '/wp-content/uploads/**',
