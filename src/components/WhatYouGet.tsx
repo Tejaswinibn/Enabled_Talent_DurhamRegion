@@ -85,9 +85,9 @@ export default function WhatYouGet() {
               </ul>
               
               {/* Call to Action Button - Proper size and alignment */}
-              <button className="mt-8 sm:mt-8 px-8 py-3 rounded-lg text-white font-bold text-base hover:opacity-90 transition-opacity w-fit" style={{ backgroundColor: '#F95206' }}>
+              <a href="https://app.enabledtalent.com/candidate-signup/" target="_blank" rel="noopener noreferrer" className="mt-8 sm:mt-8 px-8 py-3 rounded-lg text-white font-bold text-base hover:opacity-90 transition-opacity w-fit inline-block" style={{ backgroundColor: '#F95206' }}>
                 Create Profile
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -38,10 +38,10 @@ export default function PromotionalBanner() {
                   </h2>
                 </div>
 
-                {/* CTA Button - Orange color as per design */}
-                <button className="text-white font-semibold px-6 py-2 sm:px-7 sm:py-2.5 lg:px-8 lg:py-3 rounded-lg text-sm sm:text-base lg:text-base transition-all duration-200 hover:scale-105" style={{ backgroundColor: '#F95206', boxShadow: '0 4px 14px rgba(249, 82, 6, 0.3)' }}>
+                {/* CTA Button - Durham Region blue color */}
+                <a href="https://app.enabledtalent.com/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold px-6 py-2 sm:px-7 sm:py-2.5 lg:px-8 lg:py-3 rounded-lg text-sm sm:text-base lg:text-base transition-all duration-200 hover:scale-105 inline-block" style={{ backgroundColor: '#1e40af', boxShadow: '0 4px 14px rgba(30, 64, 175, 0.3)' }}>
                   Get Started Now
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -53,15 +53,15 @@ export default function PromotionalBanner() {
         <div className="mx-auto max-w-7xl px-3 sm:px-4 lg:px-8 text-center">
           {/* Colorful Slogan - Exact design colors */}
             <h1 className="text-2xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-3 sm:mb-4 lg:mb-5 leading-tight px-2" style={{ fontFamily: 'Plus Jakarta Sans' }}>
-            <span style={{ color: '#DC2626' }}>
+            <span style={{ color: '#1e40af' }}>
               Your Skills.
             </span>
             {' '}
-            <span style={{ color: '#EA580C' }}>
+            <span style={{ color: '#3b82f6' }}>
               Your Future.
             </span>
             {' '}
-            <span style={{ color: '#059669' }}>
+            <span style={{ color: '#1e3a8a' }}>
               Your Durham.
             </span>
           </h1>

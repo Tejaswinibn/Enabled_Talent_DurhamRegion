@@ -11,7 +11,7 @@ export default function Home() {
       <Header />
       <main className="mt-0" style={{ margin: 0, padding: 0 }}>
                 {/* Hero Section */}
-                <section className="relative w-full overflow-hidden" style={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)', marginRight: 'calc(-50vw + 50%)', marginTop: 0, marginBottom: 0, backgroundColor: '#FFF8E1' }}>
+                <section className="relative w-full overflow-hidden" style={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)', marginRight: 'calc(-50vw + 50%)', marginTop: 0, marginBottom: 0, backgroundColor: '#1e40af' }}>
                   {/* Hero Image (fills entire section) */}
                   <img 
                     src="/images/hero-image.png"
@@ -31,9 +31,9 @@ export default function Home() {
                       Building accessible futures<br />
                       through jobs, skills, and innovation
                     </p>
-                    <button className="text-white font-semibold px-6 py-2 sm:px-8 sm:py-3 rounded-lg text-sm sm:text-base md:text-lg shadow-lg w-fit hover:opacity-90 transition-opacity" style={{ backgroundColor: '#F95206' }}>
+                    <a href="https://app.enabledtalent.com/" target="_blank" rel="noopener noreferrer" className="text-white font-semibold px-6 py-2 sm:px-8 sm:py-3 rounded-lg text-sm sm:text-base md:text-lg shadow-lg w-fit hover:opacity-90 transition-opacity inline-block" style={{ backgroundColor: '#3b82f6' }}>
                       Get Started Now
-                    </button>
+                    </a>
                   </div>
                 </section>
 
