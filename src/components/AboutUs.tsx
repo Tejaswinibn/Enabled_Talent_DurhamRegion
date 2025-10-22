@@ -89,7 +89,7 @@ export default function AboutUs() {
                   fair, and inclusive for all.
                 </p>
                 <br />
-                       <a href="https://app.enabledtalent.com/" target="_blank" rel="noopener noreferrer" className="text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity text-[14px] sm:text-[15px] font-semibold w-fit shadow-lg mx-auto lg:mx-0 inline-block" style={{ fontFamily: 'Plus Jakarta Sans', backgroundColor: '#F95206' }}>
+                       <a href="https://app.enabledtalent.com/" target="_blank" rel="noopener noreferrer" className="text-white px-6 py-3 rounded-lg hover:opacity-90 transition-opacity text-[14px] sm:text-[15px] font-semibold w-fit shadow-lg mx-auto lg:mx-0 inline-block" style={{ fontFamily: 'Plus Jakarta Sans', backgroundColor: '#1a365d' }}>
                          Get Started
                        </a>
               </div>

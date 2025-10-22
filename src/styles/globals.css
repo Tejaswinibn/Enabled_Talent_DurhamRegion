@@ -6,24 +6,24 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  color: #1e3a8a; /* Durham Region blue text */
+  color: #1a365d; /* Durham Region deep blue text */
   line-height: 1.6;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #f8fafc; /* Light background like Durham Region */
+  background-color: #ffffff; /* Clean white background like Durham Region */
 }
 
 /* Smooth typography improvements */
 h1, h2, h3, h4, h5, h6 {
-  color: #1e40af; /* Durham Region blue headings */
+  color: #1a365d; /* Durham Region deep blue headings */
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: -0.02em;
 }
 
 p {
-  color: #1e3a8a; /* Durham Region blue text */
+  color: #1a365d; /* Durham Region deep blue text */
   line-height: 1.6;
   margin-bottom: 1rem;
 }

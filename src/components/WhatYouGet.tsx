@@ -85,7 +85,7 @@ export default function WhatYouGet() {
               </ul>
               
               {/* Call to Action Button - Proper size and alignment */}
-              <a href="https://app.enabledtalent.com/candidate-signup/" target="_blank" rel="noopener noreferrer" className="mt-8 sm:mt-8 px-8 py-3 rounded-lg text-white font-bold text-base hover:opacity-90 transition-opacity w-fit inline-block" style={{ backgroundColor: '#F95206' }}>
+              <a href="https://app.enabledtalent.com/candidate-signup/" target="_blank" rel="noopener noreferrer" className="mt-8 sm:mt-8 px-8 py-3 rounded-lg text-white font-bold text-base hover:opacity-90 transition-opacity w-fit inline-block" style={{ backgroundColor: '#1a365d' }}>
                 Create Profile
               </a>
             </div>
@@ -96,10 +96,10 @@ export default function WhatYouGet() {
       {/* Why Employers Choose Us Section */}
       <div className="mt-12 sm:mt-16 lg:mt-20">
         <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 mb-3 sm:mb-4 px-4">
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4 px-4" style={{ color: '#1a365d' }}>
             Why Employers Choose Us
           </h2>
-          <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-4xl mx-auto px-4 leading-relaxed">
+          <p className="text-base sm:text-lg lg:text-xl max-w-4xl mx-auto px-4 leading-relaxed" style={{ color: '#1a365d' }}>
             Hire Durham&apos;s Best Talent. Build Stronger Teams.<br className="hidden sm:block" />
             <span className="sm:hidden"> </span>A trusted way to connect with skilled and motivated candidates.
           </p>
@@ -110,7 +110,7 @@ export default function WhatYouGet() {
             {/* Card 1 - Wide Access */}
             <div 
               className="p-6 sm:p-8 rounded-xl text-white relative h-[240px] sm:h-[260px] lg:h-[280px] flex flex-col justify-end"
-              style={{ backgroundColor: '#045F33' }}
+              style={{ backgroundColor: '#1a365d' }}
             >
               <div className="absolute top-2 right-2 sm:top-3 sm:right-3 lg:top-4 lg:right-4">
                 <Image 
@@ -138,8 +138,8 @@ export default function WhatYouGet() {
 
             {/* Card 3 - Faster Hiring */}
             <div 
-              className="p-6 sm:p-8 rounded-xl text-gray-800 relative h-[240px] sm:h-[260px] lg:h-[280px] flex flex-col justify-end"
-              style={{ backgroundColor: '#F5D042' }}
+              className="p-6 sm:p-8 rounded-xl text-white relative h-[240px] sm:h-[260px] lg:h-[280px] flex flex-col justify-end"
+              style={{ backgroundColor: '#2d5a87' }}
             >
               <div className="absolute top-2 right-2 sm:top-3 sm:right-3 lg:top-4 lg:right-4">
                 <Image 
@@ -150,8 +150,8 @@ export default function WhatYouGet() {
                   className="w-5 h-5 sm:w-6 sm:h-6 lg:w-8 lg:h-8"
                 />
               </div>
-              <h3 className="text-sm sm:text-base lg:text-lg font-bold mb-3 text-black" style={{ fontFamily: 'Plus Jakarta Sans' }}>Faster Hiring</h3>
-              <p className="text-xs sm:text-sm lg:text-sm text-black" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 400, lineHeight: '18px', letterSpacing: '0%', fontSize: 'calc(0.875rem - 1px)' }}>Get pre-matched with the right<br />candidates, ready to contribute</p>
+              <h3 className="text-sm sm:text-base lg:text-lg font-bold mb-3 text-white" style={{ fontFamily: 'Plus Jakarta Sans' }}>Faster Hiring</h3>
+              <p className="text-xs sm:text-sm lg:text-sm text-white" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 400, lineHeight: '18px', letterSpacing: '0%', fontSize: 'calc(0.875rem - 1px)' }}>Get pre-matched with the right<br />candidates, ready to contribute</p>
             </div>
 
             {/* Card 4 - Image - Man in striped shirt */}
@@ -178,8 +178,8 @@ export default function WhatYouGet() {
 
             {/* Card 6 - Inclusive Made Simple */}
             <div 
-              className="p-6 sm:p-8 rounded-xl text-gray-800 relative h-[240px] sm:h-[260px] lg:h-[280px] flex flex-col justify-end"
-              style={{ backgroundColor: '#F5D042' }}
+              className="p-6 sm:p-8 rounded-xl text-white relative h-[240px] sm:h-[260px] lg:h-[280px] flex flex-col justify-end"
+              style={{ backgroundColor: '#2d5a87' }}
             >
               <div className="absolute top-2 right-2 sm:top-3 sm:right-3 lg:top-4 lg:right-4">
                 <Image 
@@ -190,8 +190,8 @@ export default function WhatYouGet() {
                   className="w-5 h-5 sm:w-6 sm:h-6 lg:w-8 lg:h-8"
                 />
               </div>
-              <h3 className="text-sm sm:text-base lg:text-lg font-bold mb-3 text-black" style={{ fontFamily: 'Plus Jakarta Sans' }}>Inclusive Made Simple</h3>
-              <p className="text-xs sm:text-sm lg:text-sm text-black" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 400, lineHeight: '20px', letterSpacing: '0%' }}>Resources and support for building workplaces where everyone can thrive</p>
+              <h3 className="text-sm sm:text-base lg:text-lg font-bold mb-3 text-white" style={{ fontFamily: 'Plus Jakarta Sans' }}>Inclusive Made Simple</h3>
+              <p className="text-xs sm:text-sm lg:text-sm text-white" style={{ fontFamily: 'Plus Jakarta Sans', fontWeight: 400, lineHeight: '20px', letterSpacing: '0%' }}>Resources and support for building workplaces where everyone can thrive</p>
             </div>
 
             {/* Card 7 - Image - Financial businesswomen */}
@@ -208,7 +208,7 @@ export default function WhatYouGet() {
             {/* Card 8 - Long-Term Value */}
             <div 
               className="p-6 sm:p-8 rounded-xl text-white relative h-[240px] sm:h-[260px] lg:h-[280px] flex flex-col justify-end"
-              style={{ backgroundColor: '#045F33' }}
+              style={{ backgroundColor: '#1a365d' }}
             >
               <div className="absolute top-2 right-2 sm:top-3 sm:right-3 lg:top-4 lg:right-4">
                 <Image 
