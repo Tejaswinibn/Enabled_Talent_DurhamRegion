@@ -11,23 +11,14 @@ export default function Home() {
       <Header />
       <main className="mt-0" style={{ margin: 0, padding: 0 }}>
                 {/* Hero Section */}
-                <section className="relative w-full overflow-hidden" style={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)', marginRight: 'calc(-50vw + 50%)', marginTop: 0, marginBottom: 0, backgroundColor: '#1a365d' }}>
-                  {/* Hero Image (fills entire section) */}
-                  <img 
-                    src="/images/hero-image.png"
-                    alt="Background"
-                    className="w-full h-[400px] md:h-[500px] lg:h-[600px]"
-                    style={{ display: 'block', width: '100vw', height: '100%', objectFit: 'cover', objectPosition: 'center', marginLeft: 'calc(-50vw + 50%)', marginRight: 'calc(-50vw + 50%)' }}
-                  />
-                  
-                  {/* Text and Button Overlay */}
-                  <div className="absolute inset-0 flex flex-col justify-center px-4 sm:px-8 md:px-16 z-20">
-                    <h1 className="text-white text-2xl sm:text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight mb-3 sm:mb-4 md:mb-6 drop-shadow-sm" style={{ fontFamily: "Plus Jakarta Sans" }}>
-                      Durham&apos;s<br />
-                      Premier Talent<br />
+                <section className="relative w-full" style={{ width: '100vw', marginLeft: 'calc(-50vw + 50%)', marginRight: 'calc(-50vw + 50%)', marginTop: 0, marginBottom: 0, backgroundColor: '#1a365d', minHeight: '500px' }}>
+                  {/* Text and Button Content */}
+                  <div className="flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 py-16 sm:py-20 md:py-24 lg:py-28">
+                    <h1 className="text-white text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold leading-tight mb-3 sm:mb-4 md:mb-6 text-center" style={{ fontFamily: "Plus Jakarta Sans" }}>
+                      Durham&apos;s Premier Talent<br />
                       Connection
                     </h1>
-                    <p className="text-white text-sm sm:text-base md:text-xl lg:text-2xl font-semibold mb-4 sm:mb-5 md:mb-6 lg:mb-7 max-w-xs sm:max-w-lg md:max-w-xl leading-relaxed" style={{ textShadow: "0 2px 16px rgba(0,0,0,0.16)" }}>
+                    <p className="text-white text-sm sm:text-base md:text-xl lg:text-2xl font-semibold mb-4 sm:mb-5 md:mb-6 lg:mb-7 max-w-xs sm:max-w-lg md:max-w-xl leading-relaxed text-center" style={{ fontFamily: "Plus Jakarta Sans" }}>
                       Building accessible futures<br />
                       through jobs, skills, and innovation
                     </p>

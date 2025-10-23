@@ -7,8 +7,8 @@ export default function PromotionalBanner() {
               <div className="relative rounded-xl overflow-hidden shadow-xl">
                 {/* Background Image - No dark overlay as per Figma */}
                 <img 
-                  src="https://www.shutterstock.com/image-photo/waist-portrait-smiling-young-woman-600nw-2465012721.jpg"
-                  alt="Waist portrait of smiling young woman"
+                  src="https://www.stronggo.com/sites/default/files/2023-01/woman-with-disability-using-a-smartphone-while-out-2022-04-01-13-52-05-utc.jpg"
+                  alt="Woman with disability using smartphone"
                   className="w-full h-[280px] sm:h-[320px] lg:h-[400px] object-cover object-center"
                   style={{ objectPosition: 'center 20%' }}
                 />

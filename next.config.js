@@ -2,8 +2,8 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-      images: {
-        domains: ['localhost', 'www.durham.ca', 'abican-dd0f.kxcdn.com', 'alis.alberta.ca', 'www.rickhansen.com', 'ridm.net', 'broadview.org', 'disabilityinsider.com', 'indradhanuiitd.in', 'www.shutterstock.com', 'img.freepik.com', 'media.istockphoto.com'],
+        images: {
+          domains: ['localhost', 'www.durham.ca', 'abican-dd0f.kxcdn.com', 'alis.alberta.ca', 'www.rickhansen.com', 'ridm.net', 'broadview.org', 'disabilityinsider.com', 'indradhanuiitd.in', 'www.shutterstock.com', 'img.freepik.com', 'media.istockphoto.com', 'www.stronggo.com', 'ec.europa.eu', 'www.parliament.uk', 'cdn.sourceflow.co.uk'],
         remotePatterns: [
           {
             protocol: 'https',
@@ -76,6 +76,30 @@ const nextConfig = {
             hostname: 'media.istockphoto.com',
             port: '',
             pathname: '/id/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'www.stronggo.com',
+            port: '',
+            pathname: '/sites/default/files/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'ec.europa.eu',
+            port: '',
+            pathname: '/eurostat/documents/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'www.parliament.uk',
+            port: '',
+            pathname: '/contentassets/**',
+          },
+          {
+            protocol: 'https',
+            hostname: 'cdn.sourceflow.co.uk',
+            port: '',
+            pathname: '/variant/**',
           },
         ],
       },
